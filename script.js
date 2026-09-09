@@ -14,3 +14,9 @@ employees.forEach (employee => {
     employeeListElement.innerText = `${employee.firstName} ${employee.lastName} ${department.name}`;
     employeeListNode.appendChild(employeeListElement);
 });
+
+// using dynamic footer to automatically show current year, avoiding manual updates when new year rolls over: http://codeeverydamnday.hashnode.dev/add-a-dynamic-copyright-year-to-your-website-footer-in-60-seconds 
+const footerYear = document.querySelectorAll(".year");
+footerYear.forEach(copyright => {
+    copyright.innerHTML = new Date().getFullYear();
+});
