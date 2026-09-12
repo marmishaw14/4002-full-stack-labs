@@ -2,7 +2,7 @@ import "./Header.css";
 
 function Header() {
     return(<header>
-        Employee Directory
+        Pixell River Employee Directory
     </header>);
 }
 
