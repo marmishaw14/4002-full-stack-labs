@@ -1,12 +1,8 @@
-import Footer from "./components/common/footer/Footer";
-import Header from "./components/common/header/Header";
+import EmployeeDirectory from "./components/common/landing/EmployeeDirectory";
 
 function App() {
   return (
-    <>
-      <Header />
-      <Footer />
-    </>
+      <EmployeeDirectory />
   );
 };
 

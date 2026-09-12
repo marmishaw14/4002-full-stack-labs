@@ -1,0 +1,9 @@
+ul {
+    background: white;
+    list-style-type: circle;
+}
+
+li {
+    color: black;
+    list-style-position: inside;
+}
